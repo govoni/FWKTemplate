@@ -59,7 +59,7 @@ CPPFLAGS  =  -Wall -W -Woverloaded-virtual -O2 $(ARCHL) -pipe -I$(HDR) $(ROOTCFL
 CXXFLAGS  = -fPIC  -Wall -W -Woverloaded-virtual -O2 $(ARCHL) -pipe -I$(HDR) $(ROOTCFLAGS) 
 
 LDFLAGS  =  -dynamiclib -shared -O3 -single_module -undefined dynamic_lookup $(ARCHL)
-SONAME	 =  libPlotter.dylib
+SONAME	 =  libFWKTemplate.dylib
 SOFLAGS  =
 endif
 #################################################
